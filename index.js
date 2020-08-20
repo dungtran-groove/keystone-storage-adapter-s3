@@ -78,6 +78,7 @@ function S3Adapter (options, schema) {
 		accessKeyId: this.options.key,
 		secretAccessKey: this.options.secret,
 		region: this.options.region,
+		endpoint: this.options.endpoint,
 	});
 
 	// Ensure the generateFilename option takes a callback
